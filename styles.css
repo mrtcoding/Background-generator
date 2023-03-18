@@ -1,0 +1,60 @@
+body {
+  font: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  background: linear-gradient(to right, red, yellow);
+}
+h1 {
+  font: 600 3.5em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+h3 {
+  font: 900 1em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+h2 {
+  margin-bottom: -1px;
+}
+.rainbow {
+  color: white;
+}
+input {
+  margin: 10px 5px;
+}
+button.random {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  margin: 15px 5px;
+  font: 600 0.7em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  width: 17%;
+}
+label {
+  color: rgba(0, 0, 0, 0.9);
+}
+footer {
+  font: 1em "Open Sans";
+  margin-top: 300px;
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+  color: black;
+  letter-spacing: 0;
+}
